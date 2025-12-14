@@ -1,5 +1,5 @@
 {
-  "extends": "@hoot/tsconfig/libary.json",
+  "extends": "@hoo/tsconfig/library.json",
   "include": ["src"],
   "exclude": ["node_modules"]
 }

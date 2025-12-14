@@ -1,5 +1,5 @@
 {
-  description = "hoot";
+  description = "hoo";
 
   inputs = {
     # Core Nixpkgs + compatibility

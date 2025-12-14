@@ -1,12 +1,13 @@
 {
-  "name": "hoot",
+  "name": "hoo",
   "module": "index.ts",
   "type": "module",
   "workspaces": [
-    "packages/hoot"
+    "apps/svc",
+    "tooling/typescript"
   ],
   "scripts": {
-    "build": "bun run --filter='@hoot/*' build",
+    "build": "bun run --filter='@hoo/*' build",     
     "clean": "rm -rf packages/*/dist packages/*/coverage",
     "changeset": "changeset",
     "release": "bun run build && changeset version && changeset publish"
